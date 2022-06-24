@@ -3,7 +3,7 @@ name: "上班"
 on:
   workflow_dispatch:
   schedule:
-    - cron: "10 8 * * *"
+    - cron: "10 00 * * *"
 
 jobs:
   build:
